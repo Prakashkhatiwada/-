@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload Certificate</title>
+body 
+</head>
+<body>
+<h1>Upload Your Certificate</h1>
+<div class="form-container">
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="certificate" class="form-label">Choose File</label>
+    <input type="file" id="certificate" name="certificate" class="file-input">
+    <div class="buttons">
+      <button type="button" class="btn btn-secondary">Clear Form</button><br><br>
+      <button type="submit" class="btn btn-primary">Submit Form</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
